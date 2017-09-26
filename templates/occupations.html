@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Occupations</title>
+  </head>
+  <body>
+    <center>
+      <h2>Occupations Help</h2>
+      <table border="1">
+	<tr>
+	  <td><strong>Occupation</strong></td>
+	  <td><strong>%</strong></td>
+	</tr>
+	{% for occ in occ_dict %}
+	<tr>
+	  <td>{{ occ }}</td>
+	  <td>{{ occ_dict[occ] }}</td>
+	</tr>
+	{% endfor %}
+      </table>
+      <p>Your randomly generated occupation: <strong>{{ random_occ }}</strong></p>
+    </center>
+  </body>
+</html>

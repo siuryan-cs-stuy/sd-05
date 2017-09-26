@@ -6,8 +6,7 @@ FILENAME = 'occupations.csv'
 
 @app.route('/')
 def index():
-    return 'hi'
-#return render_template('base.html')
+    return render_template('index.html', title = 'Index')
 
 def generate_occupations():
     occ_dict = {}
@@ -18,14 +17,18 @@ def generate_occupations():
         line = line.strip()
         if line[0] == '"':
             line = line.strip('"').split('"')
-            line[1] = line[1].strip(',')
-        if not line[1].isalpha():
-            occ_dict[line[0]] = float(line[1])
+            rest_of_line = line[1].strip(',').split(',')
+            occ_dict[line[0]] = (float(rest_of_line[0]), rest_of_line[1])
         else:
             line = line.split(',')
             if not line[1].isalpha():
-                occ_dict[line[0]] = float(line[1])
-                    
+                occ_dict[line[0]] = (float(line[1]), line[2])
+            '''
+        else:
+            
+            if not line[1].isalpha():
+                occ_dict[line[0]] = (float(line[1])
+               '''     
     f.close()
     return occ_dict
 
@@ -33,7 +36,7 @@ def random_occupation(occ_dict):
     count = 0
     random_num = random.random()*100
     for key in occ_dict:
-        count += occ_dict[key]
+        count += occ_dict[key][0]
         if random_num < count:
             return key
     
@@ -41,7 +44,8 @@ def random_occupation(occ_dict):
 def occupations():
     occ_dict = generate_occupations()
     random_occ = random_occupation(occ_dict)
-    return render_template('occupations.html', occ_dict = occ_dict, random_occ = random_occ)
+    occ_link = occ_dict[random_occ][1]
+    return render_template('occupations.html', title = 'Occupations', occ_dict = occ_dict, random_occ = random_occ, occ_link = occ_link)
 
 if __name__ == '__main__':
     app.debug = True

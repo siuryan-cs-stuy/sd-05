@@ -1,24 +1,24 @@
 Job Class,Percentage,Link
-Management,6.1,a
-Business and Financial operations,5,b
-Computer and Mathematical,2.7,c
-Architecture and Engineering,1.7,d
-"Life, Physical and Social Science",0.9,e
-Community and Social Service,1.6,f
-Legal,0.8,g
-"Education, training and library",6.1,h
-"Arts, design, entertainment, sports and media",1.7,i
-Healthcare practioners and technical,5.5,j
-Healthcare support,2.8,k
-Protective service,2.3,l
-Food preparation and serving,8.3,m
-Building and grounds cleaning and maintenance,3.7,n
-Personal care and service,4,o
-Sales,10.2,p
-Office and administrative support,15.1,q
-"Farming, fishing and forestry",0.6,r
-Construction and extraction,4.3,s
-"Installation, maintenance and repair",3.8,t
-Production,6.1,u
-Transportation and material moving,6.5,v
-Total,99.8,w
+Management,6.1,https://en.wikipedia.org/wiki/Management
+Business and Financial operations,5,https://www.floridatechonline.com/blog/accounting-finance/finance-operations-director-career-and-salary-profile/
+Computer and Mathematical,2.7,https://www.truity.com/career-profile/mathematician
+Architecture and Engineering,1.7,http://study.com/articles/Architectural_Engineer_Job_Description_Duties_and_Requirements.html
+"Life, Physical and Social Science",0.9,http://www.americasjobexchange.com/social-scientist-job-description
+Community and Social Service,1.6,http://study.com/articles/Community_Services_Worker_Job_Description_Duties_and_Requirements.html
+Legal,0.8,https://en.wikipedia.org/wiki/Law
+"Education, training and library",6.1,https://resources.workable.com/job-descriptions/education-job-descriptions/
+"Arts, design, entertainment, sports and media",1.7,http://swz.salary.com/salarywizard/Artist-Job-Description.aspx
+Healthcare practioners and technical,5.5,http://www.eduers.com/JobDescriptions/Health_Care_Practitioner.html
+Healthcare support,2.8,https://hiring.monster.com/hr/hr-best-practices/recruiting-hiring-advice/job-descriptions/heathcare-support-job-description-sample.aspx
+Protective service,2.3,http://study.com/articles/Protective_Service_Worker_Job_Description_and_Education_Requirements.html
+Food preparation and serving,8.3,https://job-descriptions.careerplanner.com/Cooks-Restaurant.cfm
+Building and grounds cleaning and maintenance,3.7,http://www.co.champaign.il.us/descript/asd/bu/BLDG-GDS.HTM
+Personal care and service,4,http://www.snagajob.com/job-descriptions/personal-care-assistant/
+Sales,10.2,http://www.snagajob.com/job-descriptions/sales-representative/
+Office and administrative support,15.1,https://hiring.monster.com/hr/hr-best-practices/recruiting-hiring-advice/job-descriptions/office-and-administrative-support-workers-job-description-sample.aspx
+"Farming, fishing and forestry",0.6,http://www.careers.org/occupations/field/45/farming-fishing-and-forestry
+Construction and extraction,4.3,http://www.americasjobexchange.com/extraction-workers-job-description
+"Installation, maintenance and repair",3.8,https://job-descriptions.careerplanner.com/Helpers-Installation-Maintenance-and-Repair-Workers.cfm
+Production,6.1,http://www.americasjobexchange.com/production-worker-job-description
+Transportation and material moving,6.5,http://careers.stateuniversity.com/pages/7632/Material-Moving-Occupations.html
+Total,99.8,Link

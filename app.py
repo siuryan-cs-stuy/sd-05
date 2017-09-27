@@ -24,12 +24,7 @@ def generate_occupations():
             line = line.split(',')
             if not line[1].isalpha():
                 occ_dict[line[0]] = (float(line[1]), line[2])
-            '''
-        else:
-            
-            if not line[1].isalpha():
-                occ_dict[line[0]] = (float(line[1])
-               '''     
+                
     f.close()
     return occ_dict
 
